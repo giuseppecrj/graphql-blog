@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "hs-microservices-backend",
+      "script": "server.js",
+      "args": ["--no-daemon"],
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "env_production" : {
+        "NODE_ENV": "production"
+       }
+    }
+  ]
+}
